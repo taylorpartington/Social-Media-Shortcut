@@ -52,7 +52,7 @@
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" onAction="#OpenGitHub" text="GetHub" textAlignment="CENTER">
+            <Button mnemonicParsing="false" onAction="#OpenGitHub" text="GitHub" textAlignment="CENTER">
                <font>
                   <Font size="16.0" />
                </font>
