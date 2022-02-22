@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="437.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.taylorpartington.sociallmediashortcut.FXController">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#OpenReadme" text="Open README" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TilePane alignment="TOP_CENTER" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ComboBox opacity="0.0" prefWidth="150.0" promptText="Select Website">
+               <TilePane.margin>
+                  <Insets top="50.0" />
+               </TilePane.margin>
+            </ComboBox>
+         </children>
+      </TilePane>
+      <TilePane alignment="CENTER" prefHeight="561.0" prefWidth="574.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#OpenUdemy" text="Udemy" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#OpenFacebook" text="Facebook" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#OpenInstagram" text="Instagram" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#OpenYoutube" text="Youtube" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#OpenGitHub" text="GetHub" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#OpenLinkedIn" text="LinkedIn" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </TilePane>
+   </children>
+</VBox>
