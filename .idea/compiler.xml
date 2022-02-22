@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Sociall-Media-Shortcut" />
+        <module name="Social-Media-Shortcut" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Sociall-Media-Shortcut" target="17" />
+      <module name="Social-Media-Shortcut" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
